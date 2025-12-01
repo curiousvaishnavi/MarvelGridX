@@ -1,0 +1,55 @@
+@font-face {
+    font-family: hela;
+    src: url(./Helvetica.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: hela;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(21, 21, 19);
+    section{
+        height: 100%;
+        flex-grow: 1;
+        // border: 4px solid rgb(222, 168, 8); 
+        background-size: cover;
+        background-position: center;
+    }
+    section:hover{
+        border: 4px solid rgb(230, 194, 14);
+        flex-grow: 2;
+        border-radius:15px;
+        transition: all 0.7 cubic-bezier(0.165, 0.84, 0.44, 1);
+        cursor: pointer;
+    }
+    section:nth-child(6){
+        background-image: url(./balck\ widow.webp);
+    }
+    section:nth-child(7){
+        background-image: url(./captain\ america.webp);
+    }
+    section:nth-child(1){
+        background-image: url(./ironman.webp);
+    }
+    section:nth-child(3){
+        background-image: url(./thor.webp);
+    }
+    section:nth-child(5){
+        background-image: url(./spiderman.webp);
+    }
+    section:nth-child(2){
+        background-image: url(./skarlet\ witch.webp);
+    }
+    section:nth-child(4){
+        background-image: url(./captain\ marvel.webp);
+    }
+}
